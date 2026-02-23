@@ -10,7 +10,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense, Bidirectional, Dropout, Input
 
 # ==========================================
-# 1. PREPARACIÓN DE DATOS (Misma lógica anterior)
+# 1. PREPARACIÓN DE DATOS
 # ==========================================
 def cargar_datos_mini(ruta):
     # Carga rápida y limpieza básica para el test de velocidad
@@ -114,4 +114,5 @@ if __name__ == "__main__":
         obtener_info_sistema()
         
     except Exception as e:
+
         print(f"Error: {e}")
