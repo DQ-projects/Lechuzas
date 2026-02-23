@@ -11,7 +11,7 @@ from tensorflow.keras.layers import LSTM, Dense, Bidirectional, Dropout, Input
 from scipy import stats
 
 # ==========================================
-# 1. CONFIGURACIÓN (Misma anterior)
+# 1. CONFIGURACIÓN 
 # ==========================================
 COLS = {
     'fecha': 'Fecha',
@@ -166,4 +166,5 @@ if __name__ == "__main__":
     
     plt.tight_layout()
     plt.savefig('Fig3_Analisis_Fallas.png', dpi=300)
+
     print("Figura 3 guardada.")
